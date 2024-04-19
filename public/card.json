@@ -1,0 +1,144 @@
+[
+    
+    {
+        "specialId": 1,
+        "specialTitle": "College",
+        "specialName": "Chattagram College",
+        "description": "Chittagong College is a public educational institution in Chittagong, Bangladesh. It is a higher secondary school and also a degree awarding college of National University. It is the second higher secondary school in Bangladesh, established in 1871 after the Dhaka College. It was previously affiliated by the University of Chittagong.",
+        "image": "https://i.ibb.co/5RVYJgM/1-1.png",
+        "Area": "20 acres (8.1 ha)",
+        "facilities": [
+            "Students: 26000+ (as of 2021)",
+            "Academic-staff: 169",
+            "Educational Programs",
+            "Campus: Urban, 20 acres (8.1 ha)"
+        ],
+        "location": "Chawkbazar, Chittagong,  Bangladesh",
+        "established": "2 January 1869 (155 years ago)"
+    },
+    {
+        "specialId": 2,
+        "specialTitle": "University",
+        "specialName": "University of Dhaka",
+        "description": "The University of Dhaka (also known as Dhaka University or DU) is a public research university located in Dhaka, Bangladesh. It was established in 1921 as University of Dacca and it is the oldest active university in Bangladesh. The university was founded in 1921 under the Dacca University Act 1920 of the Indian Legislative Council. Nawab Bahadur Sir Khwaja Salimullah, who pioneered the university in Dhaka, donated 600 acres of land from his estate for this purpose.[7] It is modeled after British Universities. Currently it is the largest public research university in Bangladesh, with a student body of 46,150 and a faculty of 1,992.It has made significant contributions to the modern history of Bangladesh. After the Partition of India, it became the focal point of progressive and democratic movements in Pakistan. Its students and teachers played a central role in the rise of Bengali nationalism and the independence of Bangladesh in 1971.",
+        "image": "https://i.ibb.co/L5PPZTB/2.png",
+        "Area": "Urban, 254.083 acres (102.824 ha)",
+        "facilities": [
+            "Classrooms", 
+            "Library", 
+            "Science Labs", 
+            "Sports Facilities"
+        ],
+        "location": "Shahbag, Dhaka, 1000, Bangladesh",
+        "established": "1921; 103 years ago"
+    },
+    {
+        "specialId": 3,
+        "specialTitle": "Hospital",
+        "specialName": "Chittagong Medical College",
+        "description": "Chittagong Medical College (CMC) is a public medical college located in the port city of Chittagong, Bangladesh. It is established in 1957. The medical college is affiliated with Chittagong Medical University.Chittagong Medical College was established in 1957. Chittagong Medical College Hospital was started in 1959, adjacent to the college, with 120 beds. Construction of the present purpose-built six-storied CMCH was completed in 1969.The college graduated approximately 150-225 students each year from 2010 through 2015. As of 2019, it had an annual enrollment capacity of 220 seats.Sahena Akhter has been principal of the college since January 2021.",
+        "image": "https://i.ibb.co/NF8kmFX/3-5.png",
+        "Area": "50000 sq ft",
+        "facilities": [
+            "Emergency Room", 
+            "Operating Theaters", 
+            "ICU", 
+            "Diagnostic Imaging"
+        ],
+        "location": "Chawkbazar, Chittagong,  Bangladesh",
+        "established": "1957"
+    },
+    {
+        "specialId": 4,
+        "specialTitle": "Mosque",
+        "specialName": "Baitul Mukarram National Mosque",
+        "description": "The mosque complex was designed by architect, Abdulhusein M. Thariani.[4] On 27 April 1959, Abdul Latif Ibrahim Bawani, owner of then Bawani Jute Mills, held a meeting at his house with GA Madani, Haji Abdul Latif Bawani, MH Adamji, S Sattar, Muhammad Sadiq, AZN Rezai Karim and Major General Umrao Khan.[5] In that meeting he proposed to Major General Khan, then military administrator of East Pakistan, that a grand mosque be built in Dhaka. Umrao Khan agreed to help build such a mosque. The same year, a Baitul Mukarram mosque committee was established and 8.30 acres of land between new Dhaka and old Dhaka was chosen for the site. At that time, there was a large pond in the present mosque's location. It was known as 'Paltan pond. The pond was filled up and on 27 January 1960, then president of Pakistan Ayub Khan, commenced the work. Prayers took place for the first time on Friday, 25 January 1963. On 28 March 1975, the Government of Bangladesh entrusted the management of the mosque to the Islamic Foundation Bangladesh.",
+        "image": "https://i.ibb.co/LxLNZQ8/4.png",
+        "Area": "29,000 square feet",
+        "facilities": [
+            "Prayer Hall",
+            "Community Center", 
+            "Meeting Rooms", 
+            "Kitchen"
+        ],
+        "location": "Topkhana Road, Dhaka, Bangladesh",
+        "established": "27 April 1959"
+    },
+    {
+        "specialId": 5,
+        "specialTitle": "Shopping Complex",
+        "specialName": "Bashundhara City Shopping Complex",
+        "description": "Bashundhara City Shopping Mall is a shopping mall in Dhaka. The mall is located in Panthapath, near Kawran Bazar, and was opened to the public on 6 August 2004. The building complex is 19 stories tall and covers an area of 17,763 m2 (191,200 sq ft), making it the second largest shopping mall in Bangladesh. It is also one of the largest shopping malls in South Asia, with up to 50,000 visitors each day. The mall has space for 2,325 retail stores and cafeterias. It features a large underground gymnasium, a Star Cineplex cinema, a penthouse food court, an ice skating rink, a theme park, a fitness club, and a swimming pool. It also includes the 19-story corporate offices of the Bashundhara Group. ",
+        "image": "https://i.ibb.co/HKKN7vC/5.png",
+        "Area": "191,200 sq ft",
+        "facilities": [
+            "Retail Stores",
+            "Food Court",
+            "Cinema",
+            "Arcade"
+        ],
+        "location": "Panthapath, Dhaka, Bangladesh",
+        "established": "6 August 2003"
+    },
+    {
+        "specialId": 6,
+        "specialTitle": "5 Star Hotel",
+        "specialName": "Radisson Blu Chattogram Bay View",
+        "description": "Radisson Blu Hotel, Chittagong is a five-star hotel located in Chittagong, Bangladesh. It is a hotel of Radisson Blu brand owned by Radisson Hotel Group. It is the first five-star hotel in Chittagong. Radisson Blu Chattogram Bay View As the city’s premiere upscale international hotel. Our 241 rooms and suites offer modern style and thoughtful amenities. Luxurious accommodation providing comfort and hospitality for travelers.",
+        "image": "https://i.ibb.co/cvQ44Zd/6.png",
+        "Area": "20000 sq ft",
+        "facilities": [
+            "Rooms and Suites",
+            "Restaurant",
+            "Spa",
+            "Fitness Center"
+        ],
+        "location": "Lal khan Bazar, Chittagong, Bangladesh",
+        "established": "April 14, 2015"
+    },
+    {
+        "specialId": 7,
+        "specialTitle": "Transportation Terminal",
+        "specialName": "Dhaka Metro Rail",
+        "description": "The Dhaka Metro Rail (Bengali: ঢাকা মেট্রোরেল), or simply the Dhaka Metro, is a mass rapid transit system serving Dhaka, the capital and largest city of Bangladesh. It is owned and operated by the Dhaka Mass Transit Company Limited (DMTCL). Together with the under construction Dhaka BRT, proposed Dhaka Subway and Dhaka suburban circular rail, it is expected to reduce traffic congestion in the city. The metro rail network has five planned lines which are the MRT Line 6, the only operational line, MRT Line 1 and MRT line 5, which are under construction, and MRT Line 2 and MRT Line 4, which are in the planning stages. It is part of the Strategic Transport Plan outlined by the Dhaka Transport Coordination Authority (DTCA)",
+        "image": "https://i.ibb.co/2ZjTGKk/7.png",
+        "Area": "8000 sq ft",
+        "facilities": ["Ticket Counters", "Waiting Area", "Restrooms", "Parking"],
+        "location": "Greater Dhaka, Bangladesh",
+        "established": "29 December 2022; 15 months ago"
+    },
+    
+    {
+        "specialId": 8,
+        "specialTitle": "Stadium",
+        "specialName": "Sher-e-Bangla National Cricket Stadium",
+        "description": "Premier sports venue hosting thrilling matches and events. The Sher-e-Bangla National Cricket Stadium, also called Mirpur Stadium, is an International cricket ground at Mirpur, in Dhaka, the capital of Bangladesh. Located 10 kilometres from Mirpur city centre, the ground holds approximately 25,000 people and is named after the Bengali statesman A. K. Fazlul Huq, who was accorded the title Sher-e-Bangla (Tiger of Bengal).",
+        "image": "https://i.ibb.co/j4XY5xS/8.png",
+        "Area": "20000 sq ft",
+        "facilities": [
+            "Seating Stands",
+            "Field",
+            "Concession Stands",
+            "VIP Boxes"
+        ],
+        "location": "Mirpur, Dhaka, Bangladesh",
+        "established": "1980"
+    },
+    {
+        "specialId": 9,
+        "specialTitle": "Conference Center",
+        "specialName": "Bangabandhu International Conference Center",
+        "description": "Bangabandhu International Conference Center formerly known as Bangladesh China Friendship Conference Center is the only international conference center of Bangladesh situated at Sher-e-Bangla, Dhaka. It was designed by Beijing Institute of Architectural Designs and Research.It has seventeen venues for holding small to large scale events, state functions, social events, seminars, conferences, product launches, annual general meetings, fairs, exhibitions, cultural programs, reality shows, etc. BICC has hosted a number of international conferences and summits over the years including 13th SAARC summit.",
+        "image": "https://i.ibb.co/7tR1Ljr/9.png",
+        "Area": "50,000 m2 (538,200 sq ft)",
+        "facilities": [
+            "Auditoriums",
+            "Exhibition Halls",
+            "Meeting Rooms",
+            "Catering Services"
+        ],
+        "location": "Agargaon, Sher-e-Bangla, Dhaka",
+        "established": "1 january 2001"
+    }
+    
+]
