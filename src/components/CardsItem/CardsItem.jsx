@@ -17,7 +17,7 @@ const CardsItem = ({ card }) => {
                         {
                             description.length > 50
                                 ? <p>{description.slice(0, 50)}
-                                    <br /><Link className="btn btn-active btn-link text-2xl font-bold"
+                                    <br /><Link className="form-control mt-6 btn btn-primary text-2xl font-bold"
                                         to={`/card/${specialId}`}
                                     >Read more.....</Link></p>
                                 : <p>{description}</p>

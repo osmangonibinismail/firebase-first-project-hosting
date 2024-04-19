@@ -8,12 +8,12 @@ import { getAuth } from "firebase/auth";
 console.log('inside firebase config', import.meta.env.VITE_PASS)
 
 const firebaseConfig = {
-  apiKey: import.meta.env.VITE_APIKEY,
-  authDomain: import.meta.env.VITE_AUTHDOMAIN,
-  projectId: import.meta.env.VITE_PROJECTID,
-  storageBucket: import.meta.env.VITE_STORAGEBUCKET,
-  messagingSenderId: import.meta.env.VITE_MESSAGINGSENDERID,
-  appId: import.meta.env.VITE_APPID
+  apiKey: "AIzaSyAlhkV1cdfdzaifGHVDcQUbz7ZXRZWUfmc",
+  authDomain: "fir-first-project-hosting.firebaseapp.com",
+  projectId: "fir-first-project-hosting",
+  storageBucket: "fir-first-project-hosting.appspot.com",
+  messagingSenderId: "645885698068",
+  appId: "1:645885698068:web:1f2d3ac27f9e4668044701"
 };
 
 // Initialize Firebase

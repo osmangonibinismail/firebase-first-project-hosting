@@ -7,11 +7,10 @@ import { GithubAuthProvider, GoogleAuthProvider, onAuthStateChanged, signOut } f
 import { AuthContext } from "../Provider/AuthProvider";
 
 const Register = () => {
-    
     const googleProvider = new GoogleAuthProvider();
     const githubProvider = new GithubAuthProvider();
-    const { createUser } = useContext(AuthContext);
-    
+    const { createUser, logOut } = useContext(AuthContext);
+
     const location = useLocation();
     const navigate = useNavigate();
     console.log('location the path name', location);
@@ -56,6 +55,7 @@ const Register = () => {
         createUser(email, password)
             .then(result => {
                 console.log(result.user);
+
                 setSuccess('user created successfully')
                 navigate(location?.state ? location.state : '/');
 
@@ -64,22 +64,30 @@ const Register = () => {
                     displayName: name,
                     photoURL: photo
                 })
-                    .then(() => console.log('profile updated'))
+                    .then(() => {
+
+                        // send email verification
+                        sendEmailVerification(result.user)
+                            .then(() => {
+                                logOut()
+                                    .then()
+                                    .catch()
+                                console.log('profile updated')
+                                alert('please check your email and verified your account')
+                            })
+                    })
                     .catch()
 
 
-                // send email verification
-                // sendEmailVerification(result.user)
-                //     .then(() => {
-                //         alert('please check your email and verified your account')
-                //     })
+
+
             })
             .catch(error => {
                 console.error(error);
                 setRegisterError(error.message);
             })
-        
-  
+
+
     }
     const handleGoogleSignIn = () => {
         signInWithPopup(auth, googleProvider)
@@ -97,15 +105,15 @@ const Register = () => {
 
     const handleGithubSignIn = () => {
         signInWithPopup(auth, githubProvider)
-        .then(result => {
-            const loggedUser = result.user;
+            .then(result => {
+                const loggedUser = result.user;
 
-            console.log(loggedUser);
-            navigate(location?.state ? location.state : '/');
-        })
-        .catch(error => {
-            console.log(error)
-        })
+                console.log(loggedUser);
+                navigate(location?.state ? location.state : '/');
+            })
+            .catch(error => {
+                console.log(error)
+            })
     }
 
 

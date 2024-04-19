@@ -24,9 +24,6 @@ const Update = () => {
         })
     }
    
-
-
-
     return (
 
         <div className="pt-10 pb-20 min-h-screen" >
@@ -34,8 +31,8 @@ const Update = () => {
                 <p className="text-center text-black text-3xl pb-4 pt-4">Hi, <span className="text-red-500">{user.displayName || "sir / ma'am"}!</span></p>
                 <p className="text-center font-medium pb-12">Update Your Profile</p>
 
-                <p className="pl-44 mx-auto pb-4">
-                    <img className="w-36 rounded-full" src={user.photoURl || 'user.png'} />
+                <p className="pl-80 mx-auto pb-4 ">
+                    <img className="w-36 rounded-full" src={ user?.photoURL || 'user.png'} />
                 </p>
                 <form onSubmit={handleUpdateProfile} className="card-body border bg-gray-100 rounded-lg">
                 <div className="form-control">
@@ -50,8 +47,8 @@ const Update = () => {
                             </label>
                             <input type="text" name="photo" placeholder="Your Name" className="input input-bordered" required />
                         </div>
-                        <div className="text-center">
-                            <button>save</button>
+                        <div className="form-control mt-6">
+                            <button className="btn btn-primary">Save</button>
                         </div>
 
                 </form>

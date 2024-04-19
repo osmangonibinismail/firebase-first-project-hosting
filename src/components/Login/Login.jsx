@@ -44,12 +44,12 @@ const Login = () => {
                 // Navigate after login
 
                 navigate(location?.state ? location.state : '/');
-                // if (result.user.emailVerified) {
-                //     setSuccess('user logged in successfully')
-                // }
-                // else {
-                //     alert('please verify your email address')
-                // }
+                if (result.user.emailVerified) {
+                    setSuccess('user logged in successfully')
+                }
+                else {
+                    alert('please verify your email address')
+                }
 
             })
             .catch(error => {
